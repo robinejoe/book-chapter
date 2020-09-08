@@ -1,0 +1,120 @@
+/*this is a comment*/
+
+article {
+    width: 30rem;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .floatleft {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+  
+  .floatright {
+    float: right;
+    margin: 0 1rem 1rem 0;
+  }
+  
+  .moveimagedown {
+    padding-top: 1.3rem;
+  }
+  
+  article:after {
+      content: "";
+      display: table;
+  }
+  
+  h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-align: center;
+      font-size: 3rem;
+      text-decoration: underline;
+      color: #193773;
+      margin: 0;
+  }
+  
+  .firstwords {
+      font-style: italic;
+      font-size: 1.3rem;
+      color:#3F66A3;
+  }
+  
+  blockquote p{
+      font-size: 1.1rem;
+      color:#193773;
+      font-weight: bold;
+      background: #ADC8D9;
+      line-height: 1.5rem;
+      padding: 10px;
+      border: 5px solid black;
+  }
+  
+  .cameraimg {
+      display: block;
+      margin: 0 auto;
+  }
+  
+  cite {
+    display: block;  
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+  
+  body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background:#E7E8EA;
+  }
+  
+  .underscored {
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 1.3rem;
+  }
+  
+  .fieldimage {
+      display: block;
+      margin-right: 50px;
+  }
+  
+  ol {
+    padding: 5px;
+  }
+  
+  ol li{
+      color:#617FB4;
+      font-weight: bold;
+  }
+  
+  .p:after {
+      content: "";
+      display: table;
+  }
+  
+  .heavydottedborder {
+      border: #193773 dashed;
+      padding: 10px;
+      font-size: 1.1rem;
+  }
+  
+  footer {
+      color: #193773;
+      padding-left: 1rem;
+  }
+  
+  #importantinfo {
+      color: purple;
+  }
+  
+  a:link {
+      font-style: italic;
+      padding: 10px;
+  }
+  
+  a:hover {
+      font-size: 1.5rem;
+  }
+  
+  
